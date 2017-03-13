@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { addTip } from '../../redux/ducks/tips';
+import { addTip } from '../../modules/tips';
 import './styles.css';
 
 const Tip = props => (
