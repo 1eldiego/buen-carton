@@ -1,32 +1,27 @@
 body {
-  background-color: #222;
+  background-color:#06B;
   font-family: 'Bowlby One SC', cursive;
-  color: #EEE;
-}
-
-.game-board {
-  margin: 10px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
 }
 
 h1 {
   margin: 15px 0;
   font-size: 2.2em;
   text-align: center;
-  text-shadow: 1px 1px 1px red;
 }
 
 button {
+  text-align: left;
   font-family: inherit;
-  background-color: #444;
+  background-color: darkcyan;
+  text-shadow: inherit;
   border: none;
-  padding: 0.3em 0.7em;
+  padding: 1.5em 0.7em;
   font-size: 1.2em;
   width: 100%;
-  margin: 15px 0;
-  box-shadow: -1px -1px 1px #999;
   color: inherit;
   letter-spacing: .05em;
-  text-shadow: 1px 1px 1px black;
 }
 
 button:focus {
@@ -35,4 +30,15 @@ button:focus {
 
 button:active {
   background-color: #666;
+}
+
+.game-board {
+  margin: 10px 0;
+}
+
+.money {
+  text-align: center;
+  font-size: 1.2em;
+  background-color: dodgerblue;
+  padding: 1.5em 0;
 }

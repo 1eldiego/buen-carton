@@ -1,7 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { addTip } from '../../modules/tips';
-import './styles.css';
 
 const Tip = props => (
   <button className="tip" onClick={props.addTip}>Pedir Limosna $1</button>
