@@ -4,7 +4,7 @@
   "description": "Juego de acumulación de capital",
   "main": "dist/buen-carton.js",
   "scripts": {
-    "start": "webpack --watch & webpack-dev-server --host 192.168.0.7"
+    "start": "webpack --watch & webpack-dev-server --no-info"
   },
   "author": "Diego Balladares",
   "license": "ISC",
