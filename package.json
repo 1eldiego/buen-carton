@@ -1,11 +1,10 @@
 {
-  "name": "wild-rice",
+  "name": "buen-carton",
   "version": "1.0.0",
-  "description": "Prueba de concepto personal utilizando babel+react+redux",
-  "main": "dist/wild-rice.js",
+  "description": "Juego de acumulación de capital",
+  "main": "dist/buen-carton.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --colors --watch & webpack-dev-server --colors"
+    "start": "webpack --watch & webpack-dev-server --host 192.168.0.7"
   },
   "author": "Diego Balladares",
   "license": "ISC",
@@ -15,13 +14,13 @@
     "react-redux": "^5.0.3",
     "redux": "^3.6.0",
     "redux-actions": "^2.0.1",
-    "redux-logger": "^2.8.1",
-    "uniqid": "^4.1.1"
+    "redux-logger": "^2.8.1"
   },
   "devDependencies": {
     "babel-core": "^6.22.1",
     "babel-loader": "^6.2.10",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
     "babel-preset-latest-minimal": "^1.1.2",
     "babel-preset-react": "^6.22.0",
     "css-loader": "^0.26.1",
@@ -29,11 +28,8 @@
     "eslint-config-airbnb": "^14.0.0",
     "eslint-loader": "^1.6.1",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^3.0.2",
     "eslint-plugin-react": "^6.9.0",
     "jsx-loader": "^0.13.2",
-    "less": "^2.7.2",
-    "less-loader": "^2.2.3",
     "style-loader": "^0.13.1",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^1.16.2"

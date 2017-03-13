@@ -4,7 +4,7 @@ module.exports = {
   entry: './src/index.jsx',
   output: {
     path: path.join(__dirname, '/dist/'),
-    filename: 'wild-rice.js',
+    filename: 'buen-carton.js',
   },
   resolve: {
     extensions: ['.js', '.jsx'],
@@ -26,12 +26,11 @@ module.exports = {
         ],
       },
       {
-        test: /\.less$/,
+        test: /\.css$/,
         include: /src/,
         use: [
           'style-loader',
           'css-loader',
-          'less-loader',
         ],
       },
     ],
